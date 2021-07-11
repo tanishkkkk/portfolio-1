@@ -45,5 +45,6 @@ module.exports = {
     variants: {
         extend: {}
     },
-    plugins: []
+    plugins: [],
+    separator: '_'
 };
