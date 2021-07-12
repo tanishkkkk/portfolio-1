@@ -57,10 +57,10 @@ export const Nav = () => {
                 </div>
             </nav>
             {/* Mobile Header */}
-            <div className="w-46 pt-2 absolute top-0 link mobile header"><span className="logo" onClick={() => onClickHandler('home')}><Image src={Logo} /></span><span onClick={() => navAction('animate-in')} className="icon"><Image src={Hamburger} /></span></div>
+            <div className="z-10 w-46 pt-2 absolute top-0 link mobile header"><span className="logo" onClick={() => onClickHandler('home')}><Image src={Logo} /></span><span onClick={() => navAction('animate-in')} className="icon"><Image src={Hamburger} /></span></div>
 
             {/* Mobile Nav */}
-            <nav className={` z-10 nav ${mobileNav} mobile-nav border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 `}>
+            <nav className={` z-20 nav ${mobileNav} mobile-nav border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 `}>
                 <div className="w-40 absolute top-2 link mobile"><span className="logo"><Image src={Logo} /></span><span onClick={() => navAction('animate-out')} className="icon"><Image src={Close} /></span></div>
                 <a onClick={() => onClickHandler('about', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>About</a>
                 <a onClick={() => onClickHandler('projects', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Projects</a>
