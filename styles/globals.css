@@ -118,6 +118,7 @@ body{
         width:7rem;
         position: absolute;
         left:0rem;
+        top:-0.6rem
     }
     .icon img{
         width:2rem !important;

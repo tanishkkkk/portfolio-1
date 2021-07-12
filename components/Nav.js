@@ -60,10 +60,10 @@ export const Nav = () => {
             {/* Mobile Nav */}
             <nav className={` z-10 nav ${mobileNav} mobile-nav animate border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 `}>
                 <div className="w-40 absolute top-2 link mobile"><span className="logo"><Image src={Logo} /></span><span onClick={() => navAction('animate-out')} className="icon"><Image src={Close} /></span></div>
-                <a onClick={() => onClickHandler('about', 0)} className={`link text-white font-poppins text-xl w-full text-right pr-10`}>About</a>
-                <a onClick={() => onClickHandler('projects', 0)} className={`link text-white font-poppins text-xl w-full text-right pr-10`}>Projects</a>
-                <a onClick={() => onClickHandler('blogs', 0)} className={`link text-white font-poppins text-xl w-full text-right pr-10`}>Blogs</a>
-                <a onClick={() => onClickHandler('contact', 0)} className={`link text-white font-poppins text-xl w-full text-right pr-10`}>Contact</a>
+                <a onClick={() => onClickHandler('about', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>About</a>
+                <a onClick={() => onClickHandler('projects', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Projects</a>
+                <a onClick={() => onClickHandler('blogs', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Blogs</a>
+                <a onClick={() => onClickHandler('contact', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Contact</a>
                 <div className="socials absolute bottom-0 pt-10 pb-10 flex gap-x-1 w-full justify-center">
                     <span className="mr-2"><Link href="" ><Image alt="" src={LinkedIn} /></Link></span>
                     <span className="mr-2"><Link href=""><Image alt="" src={Github} /></Link></span>

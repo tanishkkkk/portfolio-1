@@ -11,7 +11,7 @@ export const About = () => {
 
 
     return (
-        <div className={`${slide} bg-gray-950 w-full h-full`}>
+        <div className={`${slide} w-full h-full`}>
 
         </div>
     )

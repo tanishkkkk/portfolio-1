@@ -13,7 +13,7 @@ export const Home = () => {
     }
     return (
         <>
-            <div className={`${slide} index-high h-full pl-10 flex items-start  flex-col justify-center text-white font-poppins font-black text-5xl md:pl-60 md:text-8xlm`}>
+            <div className={`${slide} index-high h-full pl-10 flex items-start  flex-col justify-center text-white-50 font-poppins font-black text-5xl md:pl-60 md:text-8xl`}>
                 <h1 className="index-high tracking-widest pt-2"><span className="text-aqua-600" ></span>Hi</h1>
                 <h1 className="index-high tracking-widest pt-2">I&apos;m <span className="text-aqua-600">Ishan</span></h1>
                 <h1 className="index-high tracking-widest text-3xl md:text-7xl pt-2">web <span className="text-aqua-600">d</span>eveloper</h1>
