@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout, Home,About, Projects } from '../components'
+import { Layout, Home,About, Projects,Blogs, Contact } from '../components'
 import { useRoute } from '../Context'
 
 const Portfolio = () => {
@@ -11,6 +11,8 @@ const Portfolio = () => {
                 {route === 'home' && <Home />}
                 {route === 'about' && <About />}
                 {route === 'projects' && <Projects />}
+                {route === 'blogs' && <Blogs />}
+                {route === 'contact' && <Contact />}
             </div>
         </Layout>
     )

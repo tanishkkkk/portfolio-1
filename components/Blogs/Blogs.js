@@ -3,7 +3,7 @@ import { useRoute } from '../../Context'
 import Arrow from '../../Images/Arrow.svg'
 import Image from 'next/image'
 import { Card } from '../Card/Card'
-export const Projects = () => {
+export const Blogs = () => {
     const { route } = useRoute()
     const [slide, setSlide] = useState('')
     const [isHidden, setIsHidden] = useState('hidden')
@@ -11,12 +11,12 @@ export const Projects = () => {
 
     function changePage() {
         setTimeout(() => {
-            setRoute('blogs')
+            setRoute('contact')
         }, 150)
         setSlide('slideUp')
     }
     useEffect(() => {
-        if (route === 'projects') {
+        if (route === 'blogs') {
             setSlide('slide-up-bottom')
             setTimeout(() => {
                 setIsHidden('')
@@ -27,13 +27,8 @@ export const Projects = () => {
 
     return (
         <div className={`${slide} md:z-10 h-full pl-6 pr-3 pt-28 md:pt-32 justify-center text-white-50 font-poppins ${isHidden}`}>
-            <h1 className="text-3xl md:pl-56 md:text-8xl"><span className="text-aqua-600">M</span>y Work</h1>
+            <h1 className="text-3xl md:pl-56 md:text-8xl"><span className="text-aqua-600">B</span>logs</h1>
             <div className="flex w-screen mt-2 justify-around overflow-y-scroll flex-wrap md:block md:flex-nowrap pt-10 gap-y-3 md:pl-64 md:pt-6 overflow-x-scroll h-4/5 absolute right-0 left-0 m-auto pb-10 md:pb-24">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
                 <Card />
                 <Card />
                 <Card />

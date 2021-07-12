@@ -33,6 +33,8 @@ export const Nav = () => {
                 return onClickHandler('blogs', 0,target)
             case "contact":
                 return onClickHandler('contact',0, target)
+            case "home":
+                return onClickHandler('home', 50, target)
         }
 
     }, [route])
@@ -43,7 +45,7 @@ export const Nav = () => {
         <>
             {/* Desktop Nav */}
             <nav className="desktop-nav z-20 border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 ">
-                <span className="w-40 absolute top-2 link desktop" onClick={(e) => onClickHandler('home', 50, e.target)}><Image src={Logo} /></span>
+                <span className="w-40 absolute top-2 link desktop" id='home' onClick={(e) => onClickHandler('home', 50, e.target)}><Image src={Logo} /></span>
                 <div className="slider w-full absolute h-10" style={{ top: `${top}px` }}></div>
                 <a id="about" onClick={(e) => onClickHandler('about', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>About</a>
                 <a id="projects" onClick={(e) => onClickHandler('projects', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Projects</a>

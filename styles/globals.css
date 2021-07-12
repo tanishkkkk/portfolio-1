@@ -90,6 +90,9 @@ body {
     width:5rem !important;
     height: unset !important;
 }
+.rotate{
+    transform: rotate(180deg);
+}
 
 @keyframes slideUpBottom {
     0% {
