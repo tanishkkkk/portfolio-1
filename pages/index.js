@@ -1,5 +1,5 @@
 import React from 'react'
-import { Layout, Home,About } from '../components'
+import { Layout, Home,About, Projects } from '../components'
 import { useRoute } from '../Context'
 
 const Portfolio = () => {
@@ -10,7 +10,7 @@ const Portfolio = () => {
                 {/* <button className="bg-gray-950 ml-96 mt-96 text-aqua-600 shadow-btn w-36 p-2">Send</button> */}
                 {route === 'home' && <Home />}
                 {route === 'about' && <About />}
-
+                {route === 'projects' && <Projects />}
             </div>
         </Layout>
     )
