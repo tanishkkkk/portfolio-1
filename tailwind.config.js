@@ -25,6 +25,7 @@ module.exports = {
             semiBold: '600',
             medium: '500',
             regular: '400',
+            light:'300',
             extralight:'100'
         },
         backgroundImage: {
@@ -35,6 +36,10 @@ module.exports = {
         },
         screens:{
             'mb':{'max':'768px'}
+        },
+        spacing:{
+            '84':'22rem',
+            '86':'23rem'
         }
       }
     

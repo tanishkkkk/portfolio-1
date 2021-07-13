@@ -33,6 +33,8 @@ export const Nav = () => {
                 return onClickHandler('blogs', 0,target)
             case "contact":
                 return onClickHandler('contact',0, target)
+            case "skills":
+                return onClickHandler('skills',0, target)
             case "home":
                 return onClickHandler('home', 50, target)
         }
@@ -48,6 +50,7 @@ export const Nav = () => {
                 <span className="w-40 absolute top-2 link desktop" id='home' onClick={(e) => onClickHandler('home', 50, e.target)}><Image src={Logo} /></span>
                 <div className="slider w-full absolute h-10" style={{ top: `${top}px` }}></div>
                 <a id="about" onClick={(e) => onClickHandler('about', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>About</a>
+                <a id="skills" onClick={(e) => onClickHandler('skills', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Skills</a>
                 <a id="projects" onClick={(e) => onClickHandler('projects', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Projects</a>
                 <a id="blogs" onClick={(e) => onClickHandler('blogs', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Blogs</a>
                 <a id="contact" onClick={(e) => onClickHandler('contact', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Contact</a>
@@ -65,6 +68,7 @@ export const Nav = () => {
             <nav className={` z-20 nav ${mobileNav} mobile-nav border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 `}>
                 <div className="w-40 absolute top-2 link mobile"><span className="logo"><Image src={Logo} /></span><span onClick={() => navAction('animate-out')} className="icon"><Image src={Close} /></span></div>
                 <a onClick={() => onClickHandler('about', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>About</a>
+                <a onClick={() => onClickHandler('skills', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Skills</a>
                 <a onClick={() => onClickHandler('projects', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Projects</a>
                 <a onClick={() => onClickHandler('blogs', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Blogs</a>
                 <a onClick={() => onClickHandler('contact', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Contact</a>

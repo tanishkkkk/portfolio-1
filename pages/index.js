@@ -1,15 +1,17 @@
 import React from 'react'
-import { Layout, Home,About, Projects,Blogs, Contact } from '../components'
+import { Layout, Home,About, Projects,Blogs, Contact,Skills } from '../components'
 import { useRoute } from '../Context'
 
 const Portfolio = () => {
     const { route } = useRoute()
+    console.log(route)
     return (
         <Layout >
             <div className="bg-100 w-full h-screen overflow-hidden p-0 m-0">
-                {/* <button className="bg-gray-950 ml-96 mt-96 text-aqua-600 shadow-btn w-36 p-2">Send</button> */}
+                
                 {route === 'home' && <Home />}
                 {route === 'about' && <About />}
+                {route === 'skills' && <Skills />}
                 {route === 'projects' && <Projects />}
                 {route === 'blogs' && <Blogs />}
                 {route === 'contact' && <Contact />}
