@@ -1,21 +1,22 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import Open from '../../Images/Open.svg'
 import Github from '../../Images/Socials/Github.svg'
 
 
 export const Card = ({ img, heading, github, live, details }) => {
     return (
-        <div className="index-high md:inline-block md:mr-10 bg-gray-950 h-60 w-40 md:w-56 md:h-72 flex flex-col items-center overflow-hidden rounded">
-            <div className="relative">
-                <Image className="filter brightness-50" src={"https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"} objectFit={"cover"} width={250} height={190} alt="" />
+        <div className="index-high md:inline-block md:mr-10 bg-gray-950 h-60 w-40 md:w-64 md:h-80 flex flex-col items-center overflow-hidden rounded">
+            <div className="relative overflow-hidden">
+                <span className="filter brightness-50"><Image  src={img } objectFit={"cover"} className="card-image" height={200} width={260} alt="" /></span>
                 <div className="flex items-center justify-end absolute bottom-2 right-0 gap-x-1 pr-2">
-                    {github && <span className=""><Image src={Github} /></span>}
-                    {live && <span className="w-6"><Image src={Open} /></span>}
+                    {github && <a target="_blank" href={github}><span className="cursor-pointer"><Image src={Github} width="30" height="30" /></span></a >}
+                    {live && <a target="_blank" href={live}><span className="cursor-pointer"><Image src={Open} /></span></a >}
                 </div>
             </div>
-            <h4 className="font-semiBold pt-2 md:text-center">{heading}</h4>
-            <p className="font-extralight text-center text-xs">{details}</p>
+            <h4 className="text-aqua-600 font-semiBold pt-2 md:text-center md:mb-1">{heading}</h4>
+            <p className="pr-3 pl-3 font-extralight text-center text-xs pb-10">{details}</p>
         </div>
     )
 }

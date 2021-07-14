@@ -1,0 +1,69 @@
+{
+    "projects": [
+        {
+            "name": "Knight Stream",
+            "description": "An application for chess enthusiast which helps them to focus on learning and avoid distractions",
+            "imgUrl": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "github": "https://github.com/ishanjirety/KnightStream/tree/development",
+            "live": "https://knight-stream.netlify.app",
+            "stack": [
+                "ReactJs",
+                "Express",
+                "MongoDB",
+                "CSS3"
+            ]
+        },
+        {
+            "name": "Knight Share",
+            "description": "A social media application to encourage user to be commited to there goal in form of entertainment.",
+            "imgUrl": "https://images.pexels.com/photos/2694434/pexels-photo-2694434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "github": "https://github.com/ishanjirety/knight-share",
+            "live": "https://knight-share.netlify.app",
+            "stack": [
+                "ReactJs",
+                "Redux",
+                "Express",
+                "GraphQl",
+                "Hasura",
+                "PostgreSql"
+            ]
+        },
+        {
+            "name": "Knight Stores",
+            "description": "A ecommerce application with chess accessories and books to enhance your playing experience.",
+            "imgUrl": "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "github": "https://github.com/ishanjirety/knight-stores/tree/dev",
+            "live": "http://knight-store.netlify.app/",
+            "stack": [
+                "ReactJs",
+                "Express",
+                "MongoDb",
+                "CSS3"
+            ]
+        },
+        {
+            "name": "Knight Quiz",
+            "description": "A quiz application to track your progress on every step of your learning.",
+            "imgUrl": "https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+            "github": "https://github.com/ishanjirety/QuizApp",
+            "live": "https://knight-quiz.netlify.app/",
+            "stack": [
+                "ReactJs",
+                "Typescript",
+                "Tailwind Css"
+            ]
+        },
+        {
+            "name": "Visual plum",
+            "description": "Component library to ease the development and build beautiful UI in less time",
+            "imgUrl": "https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            "github": "https://github.com/ishanjirety/Component-library-css/tree/master",
+            "live": "https://visualplum.netlify.app/",
+            "stack": [
+               "HTML5",
+               "CSS3",
+               "Javascript"
+            ]
+        }
+    ]
+}

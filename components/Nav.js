@@ -26,15 +26,15 @@ export const Nav = () => {
         const target = document.getElementById(route)
         switch (route) {
             case "about":
-                return onClickHandler('about', 0,target)
+                return onClickHandler('about', 0, target)
             case "projects":
-                return onClickHandler('projects',0, target)
+                return onClickHandler('projects', 0, target)
             case "blogs":
-                return onClickHandler('blogs', 0,target)
+                return onClickHandler('blogs', 0, target)
             case "contact":
-                return onClickHandler('contact',0, target)
+                return onClickHandler('contact', 0, target)
             case "skills":
-                return onClickHandler('skills',0, target)
+                return onClickHandler('skills', 0, target)
             case "home":
                 return onClickHandler('home', 50, target)
         }
@@ -55,10 +55,10 @@ export const Nav = () => {
                 <a id="blogs" onClick={(e) => onClickHandler('blogs', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Blogs</a>
                 <a id="contact" onClick={(e) => onClickHandler('contact', 0, e.target)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Contact</a>
                 <div className="socials absolute bottom-0 pt-10 pb-10 flex gap-x-1 w-full justify-center">
-                    <span className="mr-2"><Link href="" ><Image alt="" src={LinkedIn} /></Link></span>
-                    <span className="mr-2"><Link href=""><Image alt="" src={Github} /></Link></span>
-                    <span className="mr-2"><Link href=""><Image alt="" src={Twitter} /></Link></span>
-                    <span className="mr-2"><Link href=""><Image alt="" src={Instagram} /></Link></span>
+                <span className="mr-2"><a target="_blank" href="https://www.linkedin.com/in/ishan-jirety-a1b4a31aa/" ><Image alt="" src={LinkedIn} /></a></span>
+                    <span className="mr-2"><a target="_blank" href="https://github.com/ishanjirety"><Image alt="" src={Github} /></a></span>
+                    <span className="mr-2"><a target="_blank" href="https://twitter.com/IshanJirety"><Image alt="" src={Twitter} /></a></span>
+                    <span className="mr-2"><a target="_blank" href="https://www.instagram.com/ishan_jirety/"><Image alt="" src={Instagram} /></a></span>
                 </div>
             </nav>
             {/* Mobile Header */}
@@ -73,10 +73,10 @@ export const Nav = () => {
                 <a onClick={() => onClickHandler('blogs', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Blogs</a>
                 <a onClick={() => onClickHandler('contact', 0)} className={`link text-white-50 font-poppins text-xl w-full text-right pr-10`}>Contact</a>
                 <div className="socials absolute bottom-0 pt-10 pb-10 flex gap-x-1 w-full justify-center">
-                    <span className="mr-2"><Link href="" ><Image alt="" src={LinkedIn} /></Link></span>
-                    <span className="mr-2"><Link href=""><Image alt="" src={Github} /></Link></span>
-                    <span className="mr-2"><Link href=""><Image alt="" src={Twitter} /></Link></span>
-                    <span className="mr-2"><Link href=""><Image alt="" src={Instagram} /></Link></span>
+                    <span className="mr-2"><a target="_blank" href="https://www.linkedin.com/in/ishan-jirety-a1b4a31aa/" ><Image alt="" src={LinkedIn} /></a></span>
+                    <span className="mr-2"><a target="_blank" href="https://github.com/ishanjirety"><Image alt="" src={Github} /></a></span>
+                    <span className="mr-2"><a target="_blank" href="https://twitter.com/IshanJirety"><Image alt="" src={Twitter} /></a></span>
+                    <span className="mr-2"><a target="_blank" href="https://www.instagram.com/ishan_jirety/"><Image alt="" src={Instagram} /></a></span>
                 </div>
             </nav>
         </>
