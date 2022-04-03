@@ -35,7 +35,7 @@ export const Blogs = () => {
                     return <Card img={imgUrl} heading={name} live={live} details={description} key={id} />
                 })}
             </div>
-            <button onClick={changePage} className={`z-10 bounce btn-emboss absolute bottom-4 right-0 left-0 m-auto bg-gray-950 rounded-full p-3 flex items-center justify-center`}><Image src={Arrow} /></button>
+            <button onClick={changePage} className={`z-10 bounce w-16 h-16 btn-emboss absolute bottom-4 right-0 left-0 m-auto bg-gray-950 rounded-full p-3 flex items-center justify-center`}><Image src={Arrow} /></button>
         </div>
     )
 }

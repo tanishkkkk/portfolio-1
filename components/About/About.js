@@ -37,7 +37,7 @@ export const About = () => {
 
                 <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">By the way, when I&apos;m not coding, you&apos;ll find me playing guitar, or watching stand-ups, or playing chess : ) </p>
             </div>
-            <button onClick={changePage} className={`bounce btn-emboss absolute bottom-4 right-0 left-0 m-auto bg-gray-950 rounded-full p-3 flex items-center justify-center`}><Image src={Arrow} /></button>
+            <button onClick={changePage} className={`bounce w-16 h-16 btn-emboss absolute bottom-4 right-0 left-0 m-auto bg-gray-950 rounded-full p-3 flex items-center justify-center`}><Image src={Arrow} /></button>
         </div>
     )
 }

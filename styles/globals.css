@@ -107,8 +107,6 @@ body {
     height:5rem !important;
 }
 
-
-
 @keyframes slideUpBottom {
     0% {
         bottom: -100rem;
