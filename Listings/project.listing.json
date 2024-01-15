@@ -1,75 +1,56 @@
 {
-    "projects": [
-        {
-
-            "id":"2321-pj-2",
-            "name": "Knight Stream",
-            "description": "An application for chess enthusiast which helps them to focus on learning and avoid distractions",
-            "imgUrl": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-            "github": "https://github.com/ishanjirety/KnightStream/tree/development",
-            "live": "https://knight-stream.netlify.app",
-            "stack": [
-                "ReactJs",
-                "Express",
-                "MongoDB",
-                "CSS3"
-            ]
-        },
-        {
-            "id":"2321-pj-2",
-            "name": "Knight Share",
-            "description": "A social media application to encourage user to be commited to there goal in form of entertainment.",
-            "imgUrl": "https://images.pexels.com/photos/2694434/pexels-photo-2694434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "github": "https://github.com/ishanjirety/knight-share",
-            "live": "https://knight-share.netlify.app",
-            "stack": [
-                "ReactJs",
-                "Redux",
-                "Express",
-                "GraphQl",
-                "Hasura",
-                "PostgreSql"
-            ]
-        },
-        {
-            "id":"2321-pj-3",
-            "name": "Knight Stores",
-            "description": "A ecommerce application with chess accessories and books to enhance your playing experience.",
-            "imgUrl": "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "github": "https://github.com/ishanjirety/knight-stores/tree/dev",
-            "live": "http://knight-store.netlify.app/",
-            "stack": [
-                "ReactJs",
-                "Express",
-                "MongoDb",
-                "CSS3"
-            ]
-        },
-        {
-            "id":"2321-pj-4",
-            "name": "Knight Quiz",
-            "description": "A quiz application to track your progress on every step of your learning.",
-            "imgUrl": "https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-            "github": "https://github.com/ishanjirety/QuizApp",
-            "live": "https://knight-quiz.netlify.app/",
-            "stack": [
-                "ReactJs",
-                "Typescript",
-                "Tailwind Css"
-            ]
-        },
-        {
-            "id":"2321-pj-5",
-            "name": "Visual plum",
-            "description": "Component library to ease the development and build beautiful UI in less time",
-            "imgUrl": "https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-            "github": "https://github.com/ishanjirety/Component-library-css/tree/master",
-            "live": "https://visualplum.netlify.app/",
-            "stack": [
-               "HTML5",
-               "CSS3",
-               "Javascript"
-            ]
-        }
-    ]
+  "projects": [
+    {
+      "id": "2321-pj-2",
+      "name": "Vendee",
+      "description": "An ecomerce application with wide range of features to enhance your shopping experience.",
+      "imgUrl": "https://images.pexels.com/photos/6214476/pexels-photo-6214476.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "github": "https://github.com/tanishk15sharma/vendee",
+      "live": "https://vendee.vercel.app/",
+      "stack": ["ReactJs", "Redux", "NodeJs", "CSS3"]
+    },
+    {
+      "id": "2321-pj-2",
+      "name": "Spyspot",
+      "description": "A video library where you'll find a curated set of basketball videos with extra ordinary features.",
+      "imgUrl": "https://images.pexels.com/photos/2694434/pexels-photo-2694434.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "github": "https://github.com/tanishk15sharma/spyspot",
+      "live": "https://spyspot.vercel.app/",
+      "stack": [
+        "ReactJs",
+        "Redux",
+        "Express",
+        "GraphQl",
+        "Hasura",
+        "PostgreSql"
+      ]
+    },
+    {
+      "id": "2321-pj-3",
+      "name": "JotIT",
+      "description": "A note taking app for one who is extremely or excessively fond of writing things down with variety of features",
+      "imgUrl": "https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "github": "https://github.com/ishanjirety/knight-stores/tree/dev",
+      "live": "http://knight-store.netlify.app/",
+      "stack": ["ReactJs", "Express", "MongoDb", "CSS3"]
+    },
+    {
+      "id": "2321-pj-4",
+      "name": "Splash",
+      "description": "A social media app to share thoughts and connect with users globaly. splash is easy to use with effective SEO count",
+      "imgUrl": "https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "github": "https://github.com/tanishk15sharma/splash",
+      "live": "https://splash-one.vercel.app/login",
+      "stack": ["ReactJs", "Express", "MongoDb", "CSS3"]
+    },
+    {
+      "id": "2321-pj-5",
+      "name": "Visual plum",
+      "description": "Component library to ease the development and build beautiful UI in less time",
+      "imgUrl": "https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "github": "https://github.com/ishanjirety/Component-library-css/tree/master",
+      "live": "https://visualplum.netlify.app/",
+      "stack": ["HTML5", "CSS3", "Javascript"]
+    }
+  ]
 }
