@@ -28,16 +28,16 @@
     {
       "id": "2321-pj-3",
       "name": "JotIT",
-      "description": "A note taking app for one who is extremely or excessively fond of writing things down with variety of features",
+      "description": "A note taking app with variety of features and good UI/UX for avid writers.",
       "imgUrl": "https://images.pexels.com/photos/355952/pexels-photo-355952.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "github": "https://github.com/ishanjirety/knight-stores/tree/dev",
-      "live": "http://knight-store.netlify.app/",
+      "github": "https://github.com/tanishk15sharma/jotIT",
+      "live": "https://jot-it-tanishk.vercel.app/",
       "stack": ["ReactJs", "Express", "MongoDb", "CSS3"]
     },
     {
       "id": "2321-pj-4",
       "name": "Splash",
-      "description": "A social media app to share thoughts and connect with users globaly. splash is easy to use with effective SEO count",
+      "description": "A social media app to share thoughts and connect with users globaly. splash is easy to use with effective SEO count.",
       "imgUrl": "https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
       "github": "https://github.com/tanishk15sharma/splash",
       "live": "https://splash-one.vercel.app/login",
@@ -45,11 +45,20 @@
     },
     {
       "id": "2321-pj-5",
-      "name": "Visual plum",
-      "description": "Component library to ease the development and build beautiful UI in less time",
+      "name": "Furbish",
+      "description": "Component library to ease the development and build beautiful UI in less time, I have build stuff using this.",
+      "imgUrl": "https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "github": "https://github.com/tanishk15sharma/Component-library-furbish",
+      "live": "https://furbish.netlify.app/",
+      "stack": ["HTML5", "CSS3", "Javascript"]
+    },
+    {
+      "id": "2321-pj-5",
+      "name": "CaptureME",
+      "description": "A photo taking app for fun, where you can download your pretty clicks. go try, it will be fun!",
       "imgUrl": "https://images.pexels.com/photos/3837494/pexels-photo-3837494.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
-      "github": "https://github.com/ishanjirety/Component-library-css/tree/master",
-      "live": "https://visualplum.netlify.app/",
+      "github": "https://github.com/tanishk15sharma/webcam-app",
+      "live": "https://capture-me.netlify.app/",
       "stack": ["HTML5", "CSS3", "Javascript"]
     }
   ]
