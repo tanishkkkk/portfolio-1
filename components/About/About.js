@@ -26,7 +26,7 @@ export const About = () => {
 
   return (
     <div
-      className={`${slide} h-full pl-6 pr-3 pt-28 md:pt-32 justify-center text-white-50 font-poppins ${isHidden}`}
+      className={`${slide} h-full pl-6 pr-3 pt-28 md:pt-32 text-justify leading-6 justify-center text-white-50 font-poppins ${isHidden}`}
     >
       <h1 className="text-3xl md:pl-56 md:text-8xl">
         <span className="text-aqua-600  ">M</span>e &#38;{" "}
@@ -34,47 +34,50 @@ export const About = () => {
       </h1>
       <div className="h-5/6 overflow-y-scroll md:w-11/12 inline-block pb-">
         <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">
-          Hi, I am a <span className="text-aqua-600">Software Developer</span>.
-          I have been working on the MERN stack for about 2+ years in this span
-          I have developed multiple projects which helped me to enhance my
-          skills. Yes, having your strong base really helps and hence I am open
-          to adapting to whichever framework is required. While I was working on
-          different tech stacks, to give a kick start to my career I also did
-          some freelancing work which helped me to explore different domains
-          like <span className="text-aqua-600">Shopify app development</span>,{" "}
+          I'm a <span className="text-aqua-600">Software Developer</span>. Over
+          the past 2+ years, I've honed my expertise in the dynamic realm of the
+          MERN stack, spearheading the development of numerous projects that
+          have not only fortified my skills but also pushed the boundaries of
+          innovation. I thrive on versatility and am always eager to embrace new
+          frameworks and technologies . While I was working on different tech
+          stacks, to give a kick start to my career I also did some freelancing
+          work which helped me to explore different domains like{" "}
+          <span className="text-aqua-600">Shopify app development</span>,{" "}
           <span className="text-aqua-600">DevOps</span> and{" "}
           <span className="text-aqua-600">Securities.</span>
         </p>
 
         <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">
           {" "}
-          After all this, I joined <span className="text-aqua-600">Neog</span> a
-          Bootcamp for <span className="text-aqua-600">web developers</span>,
-          there I learned about{" "}
-          <span className="text-aqua-600">React ecosystem</span>,{" "}
-          <span className="text-aqua-600">UI/UX</span>,{" "}
-          <span className="text-aqua-600">web performances</span>, and{" "}
-          <span className="text-aqua-600">tooling</span> which helped me to grow
-          overall, and equipped me with some of the latest technologies.
+          Joining Neog, a premier web development bootcamp, was a pivotal moment
+          in my career. Here, I immersed myself in the
+          <span className="text-aqua-600"> React ecosystem</span>, delving into
+          <span className="text-aqua-600"> UI/UX principles</span>, optimizing
+          <span className="text-aqua-600"> web performance</span>, and mastering
+          essential <span className="text-aqua-600">tooling</span>, equipping
+          myself with the latest technologies and techniques.
         </p>
 
         <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">
           {" "}
-          I believe Project Based Learning is the best approach to learn
-          anything. Hence, I&apos;ve got projects in all the different
-          technologies that I&apos;ve learned over time.
+          I staunchly believe in the power of Project-Based Learning as the
+          cornerstone of skill acquisition, having built
+          <span className="text-aqua-600"> 50+ projects </span>
+          to date. Consequently, I've curated a robust portfolio brimming with
+          projects spanning a myriad of technologies, each a testament to my
+          unwavering commitment to excellence.
         </p>
 
         <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">
-          By the way, when I&apos;m not coding, you&apos;ll find me playing
-          basketball, or watching stand-ups, or playing chess : ){" "}
+          Outside of work, I'm fueled by basketball, stand-up comedy, and chess.
+          These passions fuel my creativity and drive for excellence.
         </p>
       </div>
       <button
         onClick={changePage}
         className={`bounce w-16 h-16 btn-emboss absolute bottom-4 right-0 left-0 m-auto bg-gray-950 rounded-full p-3 flex items-center justify-center`}
       >
-        <Image src={Arrow} />
+        <Image src={Arrow} alt="arrow-icon" />
       </button>
     </div>
   );
