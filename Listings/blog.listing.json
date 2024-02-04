@@ -1,23 +1,25 @@
 {
-    "blogs": [
-        {
-            "id": "2321-bg-1",
-            "name": "Improving performance with React Apollo client",
-            "imgUrl": "https://ishan-jirety.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2F3-y9vq8uoxk%2Fupload%2Fv1658752427474%2FzgftpoeZf.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-            "description": "In this article, we are going to look at cache normalization with apollo client…",
-            "live": "https://ishan-jirety.hashnode.dev/improving-performance-with-react-apollo-client"
-            }, {
-                "id": "2322-bg-2",
-                "name": "Setting up your own design...",
-                "imgUrl": "https://ishan-jirety.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Funsplash%2FV4EOZj7g1gw%2Fupload%2Fv1658668843648%2FrWi_9s24o.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-                "description": "Hello people, In this article, we will look into building your own design system with minimum setup...",
-                "live": "https://ishan-jirety.hashnode.dev/setting-up-your-own-design-system-with-react-typescript"
-            }, {
-                "id": "2323-bg-3",
-            "name": "Execution Context",
-            "imgUrl": "https://ishan-jirety.hashnode.dev/_next/image?url=https%3A%2F%2Fcdn.hashnode.com%2Fres%2Fhashnode%2Fimage%2Fupload%2Fv1623778952603%2FiQXwwdPJm.jpeg%3Fw%3D1600%26h%3D840%26fit%3Dcrop%26crop%3Dentropy%26auto%3Dcompress%2Cformat%26format%3Dwebp&w=1920&q=75",
-            "description": "Hello, guys! In this article, we'll learn about execution context in JavaScript there are few concepts that will be covered along What is an execution…",
-            "live": "https://ishan-jirety.hashnode.dev/execution-context"
-        }
-    ]
+  "blogs": [
+    {
+      "id": "2321-bg-1",
+      "name": "Improving app performance",
+      "imgUrl": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F72nvglkdteze5bimbr75.png",
+      "description": "The performance of your React JS application is crucial to its overall success...",
+      "live": "https://dev.to/tanishk15sharma/boost-your-react-js-performance-id5"
+    },
+    {
+      "id": "2322-bg-2",
+      "name": "Setting up your own design...",
+      "imgUrl": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3rrefpf4j59iqy1jlpl.jpeg",
+      "description": "Hello people, In this article, we will look into building your own design system with minimum setup...",
+      "live": "https://dev.to/tanishk15sharma/what-is-localstorage-37fj"
+    },
+    {
+      "id": "2323-bg-3",
+      "name": "Execution Context",
+      "imgUrl": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi4rnhb5oguavx9frkcga.png",
+      "description": "Hello, guys! In this article, we'll learn about execution context in JavaScript there are few concepts that will be covered along What is an execution…",
+      "live": "https://dev.to/tanishk15sharma/how-to-minimize-react-bundle-size-for-faster-loading-times-1gfm"
+    }
+  ]
 }
