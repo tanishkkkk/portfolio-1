@@ -58,7 +58,9 @@ export const Nav = () => {
                 Tanishk Sharma
               </div>
             </div>
-            <div className="text-white-50 text-xs opacity-70">LET'S BUILD</div>
+            <div className="text-white-50 text-xs opacity-70">
+              LET&apos;S BUILD
+            </div>
           </div>
         </div>
         <div

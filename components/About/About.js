@@ -34,15 +34,15 @@ export const About = () => {
       </h1>
       <div className="h-5/6 overflow-y-scroll md:w-11/12 inline-block pb-">
         <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">
-          I'm a <span className="text-aqua-600">Software Developer</span>. Over
-          the past 2+ years, I've honed my expertise in the dynamic realm of the
-          MERN stack, spearheading the development of numerous projects that
-          have not only fortified my skills but also pushed the boundaries of
-          innovation. I thrive on versatility and am always eager to embrace new
-          frameworks and technologies . While I was working on different tech
-          stacks, to give a kick start to my career I also did some freelancing
-          work which helped me to explore different domains like{" "}
-          <span className="text-aqua-600">Shopify app development</span>,{" "}
+          I&apos;m a <span className="text-aqua-600">Software Developer</span>.
+          Over the past 2+ years, I&apos;ve honed my expertise in the dynamic
+          realm of the MERN stack, spearheading the development of numerous
+          projects that have not only fortified my skills but also pushed the
+          boundaries of innovation. I thrive on versatility and am always eager
+          to embrace new frameworks and technologies . While I was working on
+          different tech stacks, to give a kick start to my career I also did
+          some freelancing work which helped me to explore different domains
+          like <span className="text-aqua-600">Shopify app development</span>,{" "}
           <span className="text-aqua-600">DevOps</span> and{" "}
           <span className="text-aqua-600">Securities.</span>
         </p>
@@ -63,14 +63,14 @@ export const About = () => {
           I staunchly believe in the power of Project-Based Learning as the
           cornerstone of skill acquisition, having built
           <span className="text-aqua-600"> 50+ projects </span>
-          to date. Consequently, I've curated a robust portfolio brimming with
-          projects spanning a myriad of technologies, each a testament to my
-          unwavering commitment to excellence.
+          to date. Consequently, I&apos;ve curated a robust portfolio brimming
+          with projects spanning a myriad of technologies, each a testament to
+          my unwavering commitment to excellence.
         </p>
 
         <p className="text-sm pt-2 md:pl-56 md:w-11/12 md:pt-4">
-          Outside of work, I'm fueled by basketball, stand-up comedy, and chess.
-          These passions fuel my creativity and drive for excellence.
+          Outside of work, I&apos;m fueled by basketball, stand-up comedy, and
+          chess. These passions fuel my creativity and drive for excellence.
         </p>
       </div>
       <button
