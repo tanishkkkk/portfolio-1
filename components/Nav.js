@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useRoute } from "../Context";
-import Logo from "../Images/Socials/Logo.svg";
+import Logo from "../Images/Socials/code-logo.svg";
+import LogoNoFooter from "../Images/Socials/Logo2.jpg";
 import Github from "../Images/Socials/Github.svg";
 import Instagram from "../Images/Socials/Instagram.svg";
 import LinkedIn from "../Images/Socials/LinkedIn.svg";
@@ -34,7 +35,7 @@ export const Nav = () => {
       case "skills":
         return onClickHandler("skills", 0, target);
       case "home":
-        return onClickHandler("home", 50, target);
+        return onClickHandler("home", 20, target);
     }
   }, [route]);
   function navAction(action) {
@@ -44,13 +45,22 @@ export const Nav = () => {
     <>
       {/* Desktop Nav */}
       <nav className="desktop-nav z-20 border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 ">
-        <span
-          className="w-40 absolute top-2 link desktop"
+        <div
+          className="w-28  absolute top-14 right-8 link desktop"
           id="home"
           onClick={(e) => onClickHandler("home", 50, e.target)}
         >
-          <Image src={Logo} alt="logo" />
-        </span>
+          <div className="flex flex-col items-center">
+            <div className="flex justify-center items-center gap-2">
+              <Image src={Logo} alt="logo" className="text-danger-400" />
+              <div className="w-0.5 h-10 bg-white-50 opacity-50"></div>
+              <div className="text-white-50 text-xs opacity-50 leading-4">
+                Tanishk Sharma
+              </div>
+            </div>
+            <div className="text-white-50 text-xs opacity-70">LET'S BUILD</div>
+          </div>
+        </div>
         <div
           className="slider w-full absolute h-10"
           style={{ top: `${top}px` }}
@@ -131,8 +141,17 @@ export const Nav = () => {
       </nav>
       {/* Mobile Header */}
       <div className="z-10 w-46 pt-2 absolute top-0 link mobile header">
-        <span className="logo" onClick={() => onClickHandler("home")}>
-          <Image src={Logo} alt="logo" />
+        <span
+          className="logo max-h-20 mt-4"
+          onClick={() => onClickHandler("home")}
+        >
+          <div className="flex justify-center items-center gap-2">
+            <Image src={Logo} alt="logo" className="text-danger-400" />
+            <div className="w-0.5 h-10 bg-white-50 opacity-50"></div>
+            <div className="text-white-50 text-xs opacity-50 leading-4">
+              Tanishk Sharma
+            </div>
+          </div>
         </span>
         <span onClick={() => navAction("animate-in")} className="icon">
           <Image src={Hamburger} alt="logo" />
@@ -143,9 +162,18 @@ export const Nav = () => {
       <nav
         className={` z-20 nav ${mobileNav} mobile-nav border-right bg-gray-950 w-48 h-full fixed top-0 left-0 flex flex-col justify-center items-end gap-y-4 `}
       >
-        <div className="w-40 absolute top-2 link mobile">
-          <span className="logo">
-            <Image src={Logo} alt="logo" />
+        <div className="w-40 absolute top-0 link mobile">
+          <span
+            className="logo max-h-20 mt-5"
+            onClick={() => onClickHandler("home")}
+          >
+            <div className="flex justify-center items-center gap-2">
+              <Image src={Logo} alt="logo" className="text-danger-400" />
+              <div className="w-0.5 h-10 bg-white-50 opacity-50"></div>
+              <div className="text-white-50 text-xs opacity-50 leading-4">
+                Tanishk Sharma
+              </div>
+            </div>
           </span>
           <span onClick={() => navAction("animate-out")} className="icon">
             <Image src={Close} alt="logo" />
