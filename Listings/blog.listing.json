@@ -16,9 +16,9 @@
     },
     {
       "id": "2323-bg-3",
-      "name": "Execution Context",
+      "name": "React Bundle Size",
       "imgUrl": "https://media.dev.to/cdn-cgi/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi4rnhb5oguavx9frkcga.png",
-      "description": "Hello, guys! In this article, we'll learn about execution context in JavaScript there are few concepts that will be covered along What is an execution…",
+      "description": "Analyzing the react bundle should be the entry point in optimizing the website's load time…",
       "live": "https://dev.to/tanishk15sharma/how-to-minimize-react-bundle-size-for-faster-loading-times-1gfm"
     }
   ]
