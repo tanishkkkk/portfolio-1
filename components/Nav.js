@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useRoute } from "../Context";
 import Logo from "../Images/Socials/code-logo.svg";
-import LogoNoFooter from "../Images/Socials/Logo2.jpg";
 import Github from "../Images/Socials/Github.svg";
 import Instagram from "../Images/Socials/Instagram.svg";
 import LinkedIn from "../Images/Socials/LinkedIn.svg";
